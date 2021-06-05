@@ -3,7 +3,7 @@ package base;
 import java.util.Scanner;
 
 public class PizzaDivider {
-    Scanner in = new Scanner(System.in);
+    static Scanner in = new Scanner(System.in);
     public static void main(String[] args) {
         PizzaDivider myApp = new PizzaDivider();
         myApp.output();
